@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E          &kp R                             &kp T                                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D          &kp F                             &kp G        &kp LS(LG(S))                         &kp MINUS            &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C          &kp V                             &kp B        &kp LEFT_ALT                          &kp BACKSPACE        &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp SEMICOLON  &lt_to_layer_0 6 INTERNATIONAL_5  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &mt RIGHT_ALT SPACE  &lt 1 ENTER                             &mt RCTRL DEL
+&kp Q             &kp W         &kp E          &kp R                             &kp T                                                                   &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D          &kp F                             &kp G        &kp LS(LG(S))                         &kp MINUS            &kp H            &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C          &kp V                             &kp B        &kp LEFT_ALT                          &kp ENTER            &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp SEMICOLON  &lt_to_layer_0 6 INTERNATIONAL_5  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &mt RIGHT_ALT SPACE  &lt 1 BACKSPACE                             &mt RCTRL DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -116,7 +116,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
