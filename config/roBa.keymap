@@ -19,27 +19,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <2 1>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <2 3>;
         };
     };
 
@@ -76,10 +61,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R    &kp T                                                                      &kp Y        &kp U  &lt 5 I              &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F    &kp G        &none                                 &kp MINUS               &kp H        &kp J  &kp K                &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V    &kp B        &lt_to_layer_0 6 INTERNATIONAL_5      &kp BACKSPACE           &kp N        &kp M  &mt RIGHT_ALT COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &lt_to_layer_0 3 ENTER  &lt 1 SPACE                                       &mt RCTRL ENTER
+&kp Q             &kp W         &kp E         &kp R  &kp T                                                                      &kp Y        &kp U  &lt 5 I              &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F  &kp G        &none                                 &kp MINUS               &kp H        &kp J  &kp K                &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B        &lt_to_layer_0 6 INTERNATIONAL_5      &kp BACKSPACE           &kp N        &kp M  &mt RIGHT_ALT COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &none  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &lt_to_layer_0 3 ENTER  &lt 1 SPACE                                       &mt RCTRL ENTER
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -125,10 +110,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &mkp MB4  &trans  &mkp MB5  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
